@@ -1,0 +1,145 @@
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #d2691e;
+  padding: 20px;
+  text-align: center;
+}
+
+#recipe-title {
+  font-family: 'Georgia', serif;
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Recipe Section Styling */
+.recipe-section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff8dc;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #8b4513;
+  margin-bottom: 10px;
+}
+
+/* Ingredient List Styling */
+.ingredient-list {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+/* Steps List Styling */
+.steps-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+/* Recipe Description Styling */
+.description {
+  padding: 10px;
+  margin: 20px;
+  font-style: italic;
+  background-color: #ffe4c4;
+}
+
+/* Recipe Image Styling */
+.recipe-image {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #d2691e;
+  max-width: 80%;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #d2691e;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Link Styling */
+.source-link {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  color: #d2691e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.source-link:hover {
+  color: #ff6347;
+}
+
+/* Button Styling */
+.submit-recipe-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-recipe-btn:hover {
+  background-color: #d2691e;
+}
+
+/* Form Styling */
+.recipe-form {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #fff8dc;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-form label {
+  margin-top: 10px;
+  color: #8b4513;
+  font-weight: bold;
+}
+
+.recipe-form input, .recipe-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #d2691e;
+  border-radius: 4px;
+}
+
+.submit-form-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-form-btn:hover {
+  background-color: #d2691e;
+}
+
